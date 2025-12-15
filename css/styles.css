@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: space-around;
+    margin-top: 40px;
+    width: 286px;
+    font-family: Open Sans, Segoe UI, sans-serif;
+}
+
+.js {
+    font-size: 1.1em;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: auto;
+    width: 286px;
+    font-family: Open Sans, Segoe UI, sans-serif;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+}
