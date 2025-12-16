@@ -1,23 +1,41 @@
+.base-layout {
+    margin: 10px auto;
+    max-width: 90%;
+    padding: 10px 40px;
+}
+
+.navbar-layout {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px auto;
+}
+
 .navbar {
     display: flex;
-    font-size: 1.1em;
+    font-family: Consolas, Open Sans, sans-serif;
+    font-size: 1.5em;
     justify-content: space-around;
-    margin-top: 40px;
-    width: 286px;
-    font-family: Open Sans, Segoe UI, sans-serif;
+    margin-top: 50px;
+    width: 100%;
+    gap: 90px;
+    white-space: nowrap;
 }
 
-.js {
-    font-size: 1.1em;
-    justify-content: space-around;
-    margin-top: 40px;
-    margin-left: 40px;
+.logo {
     margin-right: auto;
-    width: 286px;
-    font-family: Open Sans, Segoe UI, sans-serif;
 }
 
-.navbar-container {
-    display: flex;
-    justify-content: center;
+.title {
+    color: #7889ef;
+    font-family: Consolas, Open Sans, sans-serif;
+    font-size: 5em;
 }
+
+.sub-title {
+    color: #303030;
+    font-family: Consolas, Open Sans, sans-serif;
+    font-size: 1.25em;
+}
+
+
+
